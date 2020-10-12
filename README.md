@@ -5,11 +5,10 @@ This is a Mini Compiler built for the Language C++. The compiler has been built 
 The implemented mini- compiler handles the syntax and semantics of the C++ language’s grammar. This includes catching errors such as missing semicolons, using undeclared variables and mismatched parentheses or braces. The compiler identifies these syntax errors and generates meaningful errors, so that the problem can be easily fixed. The compiler also overlooks all forms of valid comments that may be present in the code. Invalid comments of the C++ language are identified as errors and returned accordingly.
 <bl>
 The mini-compiler handles the following constructs:
-  <li>
-    <ul>if condition</ul>
-    <ul>for loop</ul>
-    <ul>while loop</ul>
-  </li>
-
+  <ul>
+    <li>if condition</li>
+    <li>for loop</li>
+    <li>while loop</li>
+  </ul>
 Therefore, the compiler will be able to check for the semantics and proper use of the above constructs as they appear in the source code.
 
